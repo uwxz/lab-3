@@ -1,0 +1,149 @@
+lab3_fruit.html
+------------------------------------------------------------------------
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>fruit example</title>
+
+    <frameset cols="20%, *">
+        <frame name="left" src="Navigation.html">
+            
+        </frame>
+        <frame name="right">
+            
+        </frame>
+    </frameset>
+</head>
+<body>
+
+</body>
+</html>
+-------------------------------------------------------------------------
+navigation.html
+--------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table name="Navigation">
+        <tr>
+            <h1>Navigation</h1>
+        </tr>
+        <tr>
+            <h2><p>click on the fruit to find</p>
+            <p>out more about it</p></h2>
+        </tr>
+        <tr>
+            <p><a href="apple.html" target="right"> <img src="apple.png" height="100" width="100"> </a></p>
+        </tr>
+        <tr>
+            <p><a href="orange.html" target="right"> <img src="orange.png" height="100" width="100"> </a></p>
+        </tr>
+        <tr>
+            <p><a href="banana.html" target="right"> <img src="banana.png" height="100" width="100"> </a></p>
+        </tr>
+    </table>
+</body>
+</html>
+--------------------------------------------------------------------------------
+apple.html
+----------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="20">
+        <td>
+    <h1>Apples</h1>
+    <h3><p>Apples are a popular fruit.</p>
+         <p>They contain antioxidants, vitamins, dietary fiber,</p>
+         <p>and a range of other nutrients. </p>
+            <p>Due to their varied nutrient content,</p> 
+                <p>apples may help improve health in several ways.</p></h3>
+                <p>Apples come in a variety of shapes, colors, and flavors.</p> 
+                    <p>They provide a range of nutrients that can benefit many</p> 
+                    <p>aspects of a person’s health.</p>
+        </td>
+        <td>
+            <img src="apple-table.png" height="400" width="400">
+        </td>
+
+    </table>                
+
+</body>
+
+</html>
+----------------------------------------------------------------------------------------------------
+orange.html
+--------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="20">
+        <td>
+    <h1>oranges</h1>
+    <h3><p>Oranges are a type of low calorie, highly nutritious citrus fruit.</p>
+         <p>As part of a healthful and varied diet,</p>
+         <p>oranges contribute to strong,</p>
+            <p>clear skin and can help lower a person’s risk of many conditions.</p> </h3>
+                <p>Oranges are popular due to their natural sweetness, the many different types available,</p> 
+                    <p>and the diversity of uses. For example, a person can consume</p> 
+                    <p>them in juices and marmalades, eat them whole, or use zested peel to add a tangy flavor to cakes and desserts.</p>
+                    <p>This popular citrus fruit is particularly known for its vitamin C content. However, oranges</p>
+                    <p>contain a range of other plant compounds and antioxidants that may reduce inflammation and work against disease.</p>
+                    <p>In this article, we look at the many health benefits of oranges, their nutritional profile,</p>
+                    <p>and how to include more in the diet.</p>
+        </td>
+        <td>
+            <img src="orange-table.png" height="100%" width="100%">
+        </td>
+
+    </table>          
+</body>
+</html>
+------------------------------------------------------------------
+banana.html
+----------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="20">
+        <td>
+    <h1>banana</h1>
+    <h3><p>Bananas are one of the most popular fruits worldwide.</p>
+         <p>They contain essential nutrients that can have</p>
+         <p>a protective impact on health.</p></h3>
+                <p>Eating bananas can help lower blood pressure and may reduce the risk of cancer.</p> 
+                    <p>This article will take a look at the potential health benefits of bananas, such as improving heart</p> 
+                    <p>health and promoting regularity. It also examines the possible health risks that</p>
+                    <p>doctors have associated with bananas.</p>
+        </td>
+        <td>
+            <img src="banana-table.png" height="400" width="400">
+        </td>
+
+    </table>   
+</body>
+</html>
